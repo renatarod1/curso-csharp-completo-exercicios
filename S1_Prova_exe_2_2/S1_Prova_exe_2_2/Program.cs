@@ -17,7 +17,7 @@ namespace S1_Prova_exe_2_2 {
             b = Convert.ToDouble(vetLinha[1], CultureInfo.InvariantCulture);
             c = Convert.ToDouble(vetLinha[2], CultureInfo.InvariantCulture);
 
-            delta = Math.Pow(b, 2) - 4.0 * a * c;
+            delta = Math.Pow(b, 2.0) - 4.0 * a * c;
 
             if (a == 0.0 || delta < 0.0) {
                 Console.WriteLine("Impossivel calcular");
