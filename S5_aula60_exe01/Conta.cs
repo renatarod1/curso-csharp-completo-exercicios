@@ -17,7 +17,7 @@ namespace S5_aula60_exe01
         }
 
         public Conta(int numero, string nomeTitular, double depositoInicial) : this(numero, nomeTitular) {
-            this.Saldo = depositoInicial;
+            Deposito(depositoInicial);
         }
 
         public void Deposito(double valor) {
